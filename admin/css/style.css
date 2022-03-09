@@ -1,0 +1,108 @@
+/* .form-control {
+    display: block;
+    width: 50%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+/*Navcation CSS*/
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .navbar-nav a:hover {
+    color: #635cdb !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navbar-nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navbar-nav ul li {
+    position: relative;
+  }
+  .navbar-nav ul li ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    padding: 10px 0;
+  }
+  .navbar-nav ul li.caret::after {
+    content: "\f107";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    right: 2px;
+    top: 21px;
+    font-size: 13px;
+  }
+  .navbar-nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+  }
+  .navbar-nav ul li ul li {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .navbar-nav ul li ul li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+  .navbar-nav ul li ul li a {
+    display: block;
+    padding: 0 15px;
+    font-size: 15px;
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  .navbar-nav ul li a.nav-link {
+    padding: 20px 15px !important;
+    display: block;
+  }
+.success{
+    color:goldenrod;
+    font-size: 15px;
+    text-align: center;
+}
+.error{
+    color:red;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+
+}
